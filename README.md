@@ -4,11 +4,11 @@
 
 ```sh
 $ docker-compose up -d
-$ docker-compose exec ruby bundle install
+$ docker-compose exec script bundle install
 ```
 
 ## Usage
 
 ```sh
-$ docker-compose exec ruby ruby hoge.rb
+$ docker-compose exec script ruby hoge.rb
 ```

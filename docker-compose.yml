@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  ruby:
+  script:
     build: ./
     tty: true
     volumes:
