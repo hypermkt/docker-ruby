@@ -4,6 +4,7 @@
 
 ```sh
 $ docker-compose up -d
+$ docker-compose exec ruby bundle install
 ```
 
 ## Usage
